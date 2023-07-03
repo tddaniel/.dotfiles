@@ -1,0 +1,10 @@
+- hosts: localhost
+  become: true
+  pre-tasks:
+    - name: update cache
+    - dnf:
+        update-cache: true
+      tags:
+        - zsh
+  tasks:
+    include: zsh.yaml
