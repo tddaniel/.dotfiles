@@ -1,0 +1,6 @@
+- name: set up home dir
+  shell: mkdir ~/personal /work
+  tags:
+    - home
+
+
