@@ -3,7 +3,7 @@
   tags:
     - zsh
 - name: change shell
-  shell: usermod -s $(which zsh)
+  shell: chsh -s $(which zsh)
   tags:
     - zsh
 - name: oh my zsh
