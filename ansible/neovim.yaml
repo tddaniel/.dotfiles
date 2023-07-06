@@ -1,8 +1,8 @@
 - name: install neovim
   package:
-  name: 
-    - neovim 
-    - python3-neovim
+    name: 
+      - neovim 
+      - python3-neovim
   tags:
     - nvim
 - name: git packer
