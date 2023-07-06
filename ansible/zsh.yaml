@@ -16,3 +16,7 @@
     dest: '~/.oh-my-zsh/plugins/zsh-autosuggestions' 
   tags:
     - zsh
+- name: symlink zshrc
+  shell: rm ~/.zshrc && ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+  tags:
+    - zsh
