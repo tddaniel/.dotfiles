@@ -1,8 +1,12 @@
-- name: install zsh
+- name: install tmux
   dnf: name=tmux
   tags:
     - tmux
-- name: stow config
+- name: make tmux config 
+  shell: mkdir ~/.config/tmux
+  tags:
+    - tmux 
+- name: stow config tmux
   shell: stow -t ~/.config/tmux -d ~/.dotfiles -S tmux
   tags:
     - tmux 
