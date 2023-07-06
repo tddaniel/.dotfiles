@@ -4,14 +4,14 @@
   tags:
     - nvim
 - name: git packer
-  shell: git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+  shell: git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
   tags:
     - nvim
 - name: make config dir
   shell: mkdir -p ~/.config/nvim 
   tags:
     - nvim
-- name: stow config?
+- name: stow config
   shell: stow -t ~/.config/nvim -d ~/.dotfiles -S nvim
   tags:
     - nvim 
