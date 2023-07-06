@@ -6,7 +6,7 @@
         update_cache: true
       tags:
         - zsh
-        - neovim
+        - nvim
   tasks:
   - include: zsh.yaml
   - include: neovim.yaml
