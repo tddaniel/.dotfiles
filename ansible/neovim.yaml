@@ -1,0 +1,13 @@
+- name: install neovim
+  dnf:
+  name: neovim python3-neovim
+  tags:
+    - nvim
+- name: git packer
+  shell: git clone --depth 1 https://github.com/wbthomason/packer.nvim\ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+  tags:
+    - nvim
+- name: stow config?
+  shell: 
+  tags:
+    - nvim 

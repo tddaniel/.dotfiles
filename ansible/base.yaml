@@ -8,3 +8,4 @@
         - zsh
   tasks:
   - include: zsh.yaml
+  - include: neovim.yaml
