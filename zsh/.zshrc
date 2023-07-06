@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+export TERM="xterm-256color"
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="~/.local/bin/scripts":$PATH
 export PATH="~/.local/bin":$PATH
