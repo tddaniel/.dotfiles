@@ -6,3 +6,11 @@
   shell: stow -t ~/.config/tmux -d ~/.dotfiles -S tmux
   tags:
     - tmux 
+- name: make local bin 
+  shell: mkdir ~/.local/bin
+  tags:
+    - tmux 
+- name: stow local bin
+  shell: stow -t  ~/.local/bin -d ~/.dotfiles -S bin
+  tags:
+    - tmux 
