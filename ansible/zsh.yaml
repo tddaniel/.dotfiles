@@ -1,5 +1,8 @@
 - name: install zsh
-  dnf: name=zsh
+  package: 
+    name:
+      - zsh
+      - util-linux-user
   tags:
     - zsh
 - name: change shell
